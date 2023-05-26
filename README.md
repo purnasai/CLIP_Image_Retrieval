@@ -1,9 +1,17 @@
 # CLIP_Image_Retrieval
 Image/Instance Retrieval using CLIP, A self supervised Learning Model
 
+![architecture](assets/Clip_architecture.png)
+
+### Image Similarity
+
 ![Retrieval](assets/result.jpg)
 
 ## Check out My DinoV2 implementation for Image search [here](https://github.com/purnasai/Dino_V2)
+
+This Repository contained:
+    - Image Retrival with Image as a querry
+    - Image Retrival with Text as a querry
 
 #### Notes:
 - Paralell Processing is not required at Faiss Search Time, since Faiss Already implements it.
