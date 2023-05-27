@@ -13,6 +13,10 @@ This Repository contained:
 - Image Retrival with `Image` as a querry
 - Image Retrival with `Text` as a querry
 
+### Ideas:
+- we can modify it further to search an object in image, by splitting image into multiple patches, searching for object in image patch, get similiarity of text & patch. patch with highest similarity has object in it.
+- We can use it to organize unorganized files into folders.
+
 #### Notes:
 - Paralell Processing is not required at Faiss Search Time, since Faiss Already implements it.
 - Paralell Processing at Feature creation for Database images is helpful.
