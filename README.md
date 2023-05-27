@@ -16,6 +16,7 @@ This Repository contained:
 ### Ideas:
 - we can modify it further to search an object in image, by splitting image into multiple patches, searching for object in image patch, get similiarity of text & patch. patch with highest similarity has object in it.
 - We can use it to organize unorganized files into folders.
+- Adding other languages embeddings to search with other languages, like [here](https://github.com/clip-italian/clip-italian/)
 
 #### Notes:
 - Paralell Processing is not required at Faiss Search Time, since Faiss Already implements it.
