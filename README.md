@@ -12,6 +12,7 @@ Image/Instance Retrieval using CLIP, A self supervised Learning Model
 This Repository contained:
 - Image Retrival with `Image` as a querry
 - Image Retrival with `Text` as a querry
+- Code to self organize Images into Directories.
 
 ### Ideas:
 - we can modify it further to search an object in image, by splitting image into multiple patches, searching for object in image patch, get similiarity of text & patch. patch with highest similarity has object in it.
