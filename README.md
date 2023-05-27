@@ -24,3 +24,10 @@ This Repository contained:
 - Paralell Processing at Feature creation for Database images is helpful.
 - We are currently using Faiss.IndexL2 with Normalized Vectors which is Cosine Similarity, But IVFPQ(Inverted File pointer Quantization) + HNSW Of FAISS can Search Billions Of Points in MilliSeconds & Can be added Later.
 - save & load model from locally to quick run.
+
+### Metrics can be used:
+- Recall@K
+- Precision@K
+- F1-Score@K
+- Mean Average precision
+- Mean Average Recall
