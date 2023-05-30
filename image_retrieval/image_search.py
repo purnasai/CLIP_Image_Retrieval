@@ -56,4 +56,5 @@ querry_features = querry_features.detach().numpy()
 K_neighbours = 10  # number of neighbors to retrieve
 distances, indices = faiss_index.search(querry_features, K_neighbours)
 for index in range(K_neighbours):
-    print(jewellery_filenames[indices[0][index]], distances[0][index]*100)
+    score = max(0, round(distances[0][index]*100))
+    print(jewellery_filenames[indices[0][index]], score)
